@@ -1,0 +1,38 @@
+{
+  "account_id": "1887578053",
+  "project_id": "7205579439",
+  "visitors": [
+    {
+      "session_id": "",
+      "visitor_id": "puppy-spot-random-id",
+      "snapshots": [
+        {
+          "decisions": [
+            {
+              "campaign_id": "9560823711",
+              "experiment_id": "5733750339",
+              "variation_id": "6630810318"
+            }
+          ],
+          "events": [
+            {
+              "entity_id": "9560823711",
+              "type": "campaign_activated",
+              "timestamp": 1491519130343,
+              "uuid": "3a427b02-7ae0-4b20-8f02-32cc8a067be4"
+            },
+            {
+              "key": "customer_called",
+              "revenue": 100,
+              "timestamp": 1491519130344,
+              "uuid": "145a44a2-6320-48d6-80d6-bff20b32cd65"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "anonymize_ip": true,
+  "client_name": "Optimizely/event-api-demo",
+  "client_version": "1.0.0"
+}
